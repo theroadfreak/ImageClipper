@@ -5,7 +5,6 @@ import { Upload, Scissors, Download, Maximize2 } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
 export default function ImageCropApp() {
-    const [images, setImages] = useState([]);
     const [processedImages, setProcessedImages] = useState([]);
     const [processing, setProcessing] = useState(false);
     const [error, setError] = useState(null);
@@ -145,7 +144,6 @@ export default function ImageCropApp() {
         const files = Array.from(e.target.files);
         if (files.length === 0) return;
 
-        setImages(files);
         setError(null);
         setProcessing(true);
 
