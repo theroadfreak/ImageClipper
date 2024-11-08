@@ -211,8 +211,10 @@ export default function ImageCropApp() {
     return (
         <div className="max-w-4xl mx-auto p-6 space-y-6">
             <div className="text-center space-y-4">
-                <h1 className="text-2xl font-bold">Book Page Cropper</h1>
+                <h1 className="text-2xl font-bold text-yellow-200">Digital node's </h1>
+                <h1 className="text-2xl font-bold">Book Page Cropper </h1>
                 <p className="text-gray-600">Upload scanned book pages to automatically remove borders and standardize size</p>
+                <small className="text-xs text-gray-600">For issues contact: dushan@digitalnode.com</small>
             </div>
 
             <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center space-y-4">
